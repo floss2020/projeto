@@ -1,0 +1,37 @@
+h1{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+h3{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: 300;
+   
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.diagrama{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 950px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.diagrama > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.diagrama > div > p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
